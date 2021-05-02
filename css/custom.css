@@ -1,0 +1,192 @@
+:root{
+  --first-color: #5b4834;
+  --second-color: #aaa69d;
+}
+@font-face{
+src:url(css\fonts\Janna.ttf);
+font-family:janna;
+}
+.*{
+  font-family: janna !important;
+}
+body{
+  background:#f3f3f3;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.main1 ul li a{
+  font-weight: bold;
+}
+nav.navbar{
+  background:#fff !important;
+  border-bottom:1px solid #eaeaea;
+}
+
+/* Start Content */
+.content{
+  margin-top: 60px;
+}
+
+.content .post{
+  text-align:center;
+  background:#fff;
+  padding:20px 22px;
+  border-bottom:1px solid #eaeaea;
+  margin-bottom: 30px;
+}
+
+.post .post-image ,.post .post-image img
+{
+  width: 100%;
+}
+
+.post .post-title{
+  margin:10px 0;
+}
+
+.post .post-details button.btn-custom{
+  background: transparent;
+  color:var(--first-color);
+  width: 110px;
+  margin-bottom: 10px;
+  border: 1px solid var(--first-color);
+}
+
+.post .post-details button.btn-custom:hover{
+  background:var(--first-color);
+  color:#fff;
+}
+
+.post .post-details .post-info{
+  color: var(--second-color);
+}
+
+.post .post-details .post-info span{
+  margin-left: 10px;
+}
+
+.post .post-details .post-info span i{
+  margin-left:5px;
+}
+/* End Content */
+
+/* Start SideBar */
+.categories{
+  background:#fff;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 10px;
+  margin-bottom: 30px;
+}
+
+.categories h4{
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--second-color);
+}
+
+.categories ul{
+  list-style:none;
+  padding: 0;
+  margin:0;
+}
+
+.categories ul li{
+  background: var(--first-color);
+  margin-bottom:3px;
+  border-radius:2px;
+  padding: 5px;
+}
+.categories ul li:hover{
+  background: var(--second-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.categories ul li a{
+  color: #fff;
+}
+
+.last-posts{
+  background: #fff;
+  border: 1px solid #eaeaea;
+  padding: 20px 10px;
+}
+
+.last-posts h4{
+  text-align:center;
+}
+
+.last-posts ul{
+  list-style:none;
+  margin-top:10px;
+  padding:0;
+}
+
+.last-posts ul li{
+  border-bottom:1px solid var(--second-color);
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+.last-posts ul li .simg{
+  float:right;
+  margin-left: 10px;
+}
+
+.last-posts ul li .simg img{
+  width:80px;
+  height:60px;
+}
+.last-posts ul li:first-child{
+  border-top:1px solid var(--second-color);
+  padding-top:15px;
+}
+.last-posts ul li:last-child{
+  border-bottom:0;
+}
+
+.last-posts ul li a{
+  color: var(--first-color);
+}
+.last-posts ul li a:hover{
+  color:var(--second-color);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Footer */
+footer{
+  background: #fff;
+  border-top:1px solid #eaeaea;
+  text-align:center;
+  padding:10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End SideBar */
